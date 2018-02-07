@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int s=0,a,d,n,i;
-scanf("%d%d%d",&n,&a,&d);
-for(i=1;i<=n;i++)
+int s=0,a,b,c,i;
+scanf("%d%d%d",&c,&a,&b);
+for(i=1;i<=c;i++)
 {
 s=s+a;
-a=a+d;
+a=a+b;
 }
 printf("%d",s);
 return 0;
