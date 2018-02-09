@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(void) {
-	int min;
-	int h,m;
-	scanf("%d",&min);
-	h=min/60;
-	m=min%60;
-	printf("the hour is %d\n",h);
-	if(min%60==0)
+	int mini;
+	int a,b;
+	scanf("%d",&mini);
+	h=mini/60;
+	m=mini%60;
+	printf("the hour is %d\n",a);
+	if(mini%60==0)
 	{
 	printf("the minutes is 0" );
 	}
 	else
-	printf("the minutes is %d",m);
+	printf("the minutes is %d",b);
 	return 0;
 }
