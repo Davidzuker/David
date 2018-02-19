@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
-	int n;
-	scanf("%d",&n);
+	int f;
+	scanf("%d",&f);
   int i=2;
-	while(i<=n)
+	while(i<=f)
 	{
-		if(i==n)
+		if(i==f)
 		{
 			printf("yes");
 		}
