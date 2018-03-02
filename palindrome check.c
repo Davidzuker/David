@@ -2,20 +2,20 @@
 #include<string.h>
 int main(void) 
 {
-	char str[50],temp[10];
+	char s[50],temp[10];
 	int i,j,n,k;
 	printf("enter the string:");
-	scanf("%s",str);
-	n=strlen(str);
+	scanf("%s",s);
+	n=strlen(s);
 	while(i<j)
 	{
 		for(i=0;i<n;i++)
 		{
 			for(j=n;j>=1;j--)
 			{
-				temp[k]=str[i];
-				str[i]=str[j];
-				str[j]=str[i];
+				temp[k]=s[i];
+				s[i]=s[j];
+				s[j]=s[i];
 			}
 		}
 	}
